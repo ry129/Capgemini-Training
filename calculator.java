@@ -13,7 +13,11 @@ System.out.println("Welcome to Calculator");
 
 add(10,20);
 sub(5,5);
+mul(10,10);
 } 
 
+public static int mul(int a , int b){
+return a*b;
+}
 
 }
