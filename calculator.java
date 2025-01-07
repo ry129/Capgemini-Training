@@ -10,6 +10,10 @@ return a-b;
 public static int mul(int a , int b){
 return a*b;
 }
+public static int div(int a , int b){
+return a/b;
+}
+
 
 
 public static void main(String [] args) {
@@ -18,6 +22,7 @@ System.out.println("Welcome to Calculator");
 add(10,20);
 sub(5,5);
 mul(10,10);
+div(2,4);
 } 
 
 
